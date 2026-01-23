@@ -130,11 +130,6 @@ function LabMembers() {
       name: 'Joey Balducci',
       title: 'Research Assistant',
       image: joeyimg,
-    },
-    {
-      name: 'Rowan Bhagar',
-      title: 'Research Assistant',
-      image: rowanimg,
     },    
     {
       name: 'Ashlyn Germanos',
@@ -151,12 +146,6 @@ function LabMembers() {
       title: 'Undergraduate Research Assistant',
       image: mackenzieimg,
     },
-    {
-      name: 'Ethan Matei',
-      title: 'Research Assistant',
-      image: ethanimg,
-    },
-
     {
       name: 'Nicholas Novell',
       title: 'Undergraduate Research Assistant',
@@ -178,6 +167,7 @@ function LabMembers() {
     { name: "Elizabeth Belanger, Psy.D.", title: "Clinical Psychologist, Hinesville VA Clinic, GA" },
     { name: "David M. Bertram, Psy.D.", title: "Clinical Psychologist, Grand Rapids, MI" },
     { name: "Brion Bertsh, M.D.", title: "Neurologist, Fairmount, IN" },
+    { name: 'Rowan Bhagar'},
     { name: "Meghana Bhat, M.D.", title: "Adult Psychiatry, Meridian Health Services, IN" },
     { name: "Sugandha Bhosrekar, M.D.", title: "Psychiatrist, Minneapolis, MN" },
     { name: "Dean Bowker, M.D.", title: "Anesthesiology, California Pacific Medical Center, CA" },
@@ -208,6 +198,7 @@ function LabMembers() {
     { name: "Shira Louria, Psy.D.", title: "Clinical Psychologist, University of Vermont Health Network, VT" },
     { name: "Thomas Lowe, M.D.", title: "Diagnostic Radiology, Indianapolis & Mishawaka, IN" },
     { name: "SudhaRani Mamidipalli, M.S.", title: "Data Curation Strategy Leader, Eli Lilly, Indianapolis" },
+    { name: "Ethan Matei"},
     { name: "Matthew J. McFarland, RPh., Ph.D.", title: "Vice President of Commercialization, Nationwide Children's Hospital" },
     { name: "Jim Mullen, Ph.D.", title: "IT Guru" },
     { name: "Lauren Myers", title: "Doctoral Intern, Jane Pauley Community Health Center, Anderson, IN" },
