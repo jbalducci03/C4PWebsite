@@ -166,11 +166,6 @@ function LabMembers() {
       name: 'Aayush Rastogi',
       title: 'Undergraduate Research Assistant',
       image: aayushimg,
-    },
-    {
-      name: 'Johnathan Romero',
-      title: 'MD-PhD Student',
-      image: Jonathanimg,
     }
   ];
 
