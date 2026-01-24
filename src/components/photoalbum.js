@@ -33,6 +33,11 @@ const Caption = styled.p`
   max-width: 400px;
 `;
 
+const TopPhotoContainer = styled.div`
+  text-align: center;
+  margin-bottom: 2rem;
+`;
+
 // Captions for each image number (1..21).
 // - Notice that #21 has no caption provided, so we leave it blank or add a placeholder.
 const captions = [
@@ -77,24 +82,30 @@ function PhotoAlbum() {
   }
 
   return (
-    <AlbumContainer>
-      {images.map((img, idx) => {
-        const { src, number } = img;
-        const captionText = captions[number - 1];
+    <>
+      <TopPhotoContainer>
+        <StyledImage src="/assets/topphoto.jpg" alt="Top Photo" />
+        <Caption>Summer 2025 Toblerone Ceremony</Caption>
+      </TopPhotoContainer>
+      <AlbumContainer>
+        {images.map((img, idx) => {
+          const { src, number } = img;
+          const captionText = captions[number - 1];
 
-        // If image # is in keepOriginalSizeIndices, remove max-width
-        const customStyle = keepOriginalSizeIndices.includes(number)
-          ? { width: 'auto', height: 'auto', maxWidth: 'none' }
-          : {};
+          // If image # is in keepOriginalSizeIndices, remove max-width
+          const customStyle = keepOriginalSizeIndices.includes(number)
+            ? { width: 'auto', height: 'auto', maxWidth: 'none' }
+            : {};
 
-        return (
-          <PhotoCard key={idx}>
-            <StyledImage src={src} alt={`Photo ${number}`} style={customStyle} />
-            <Caption>{captionText}</Caption>
-          </PhotoCard>
-        );
-      })}
-    </AlbumContainer>
+          return (
+            <PhotoCard key={idx}>
+              <StyledImage src={src} alt={`Photo ${number}`} style={customStyle} />
+              <Caption>{captionText}</Caption>
+            </PhotoCard>
+          );
+        })}
+      </AlbumContainer>
+    </>
   );
 }
 
