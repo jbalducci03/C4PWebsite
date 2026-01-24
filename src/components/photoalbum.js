@@ -85,7 +85,7 @@ function PhotoAlbum() {
     <>
       <TopPhotoContainer>
         <StyledImage src="/assets/topphoto.jpg" alt="Top Photo" />
-        <Caption>Summer 2025 Toblerone Ceremony</Caption>
+        <Caption style={{ maxWidth: 'none' }}>Summer 2025 Toblerone Ceremony</Caption>
       </TopPhotoContainer>
       <AlbumContainer>
         {images.map((img, idx) => {
