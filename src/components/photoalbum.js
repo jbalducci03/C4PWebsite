@@ -85,7 +85,7 @@ function PhotoAlbum() {
     <>
       <TopPhotoContainer>
         <StyledImage src="/assets/topphoto.jpg" alt="Top Photo" />
-        <Caption style={{ maxWidth: 'none' }}>Niculescu Group 2026</Caption>
+        <Caption style={{ maxWidth: 'none' }}>C4P Summer 2025</Caption>
       </TopPhotoContainer>
       <AlbumContainer>
         {images.map((img, idx) => {
