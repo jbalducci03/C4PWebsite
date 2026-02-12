@@ -13,7 +13,7 @@ import aayushimg from '../../assets/Aayush.png';
 import mackenzieimg from '../../assets/Mackenzie.jpg';
 import nicholasimg from '../../assets/Nicholas.jpg';
 import robertimg from '../../assets/Robert.jpeg';
-import joeyimg from '../../assets/Joey.png';
+import joeyimg from '../../assets/joey.png';
 import Jonathanimg from '../../assets/Jonathanimg.JPG';
 import ashlynimg from '../../assets/Ashlyn.jpg'
 import tobiimg from '../../assets/Tobi.jpg'
