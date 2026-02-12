@@ -16,9 +16,9 @@ import robertimg from '../../assets/Robert.jpeg';
 import joeyimg from '../../assets/Joey.png';
 import Jonathanimg from '../../assets/Jonathanimg.JPG';
 import ashlynimg from '../../assets/Ashlyn.jpg'
-import tobiimg from '../../assets/tobi.jpg'
-import brielleimg from '../../assets/Brielle.jpg'
-import ginaimg from '../../../assets/Gina.jpg'
+import tobiimg from '../../assets/Tobi.jpg'
+import brielleimg from '../assets/Brielle.jpg'
+import ginaimg from '../../assets/Gina.jpg'
 // Styled Components
 const Container = styled.div`
   max-width: 1200px;
