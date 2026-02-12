@@ -135,7 +135,7 @@ function LabMembers() {
     },
     {
       name: 'Brielle Batres',
-      title: 'Research Assistant',
+      title: 'Undergraduate Research Assistant',
       image: brielleimg,
     },    
     {
@@ -155,7 +155,7 @@ function LabMembers() {
     },
     {
       name: 'Gina M.Makdesi',
-      title: 'Research Assistant',
+      title: 'UndergraduateResearch Assistant',
       image: ginaimg,
     },
     {
