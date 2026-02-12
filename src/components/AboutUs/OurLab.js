@@ -13,12 +13,12 @@ import aayushimg from '../../assets/Aayush.png';
 import mackenzieimg from '../../assets/Mackenzie.jpg';
 import nicholasimg from '../../assets/Nicholas.jpg';
 import robertimg from '../../assets/Robert.jpeg';
-import joeyimg from '../../assets/joey.png';
+import joeyimg from '../../assets/Joey.png';
 import Jonathanimg from '../../assets/Jonathanimg.JPG';
 import ashlynimg from '../../assets/Ashlyn.jpg'
 import tobiimg from '../../assets/tobi.jpg'
-import brielleimg from '../../assets/brielle.jpg'
-import ginaimg from '../../../assets/gina.jpg'
+import brielleimg from '../../assets/Brielle.jpg'
+import ginaimg from '../../../assets/Gina.jpg'
 // Styled Components
 const Container = styled.div`
   max-width: 1200px;
