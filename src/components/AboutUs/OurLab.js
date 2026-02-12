@@ -17,6 +17,8 @@ import joeyimg from '../../assets/joey.png';
 import Jonathanimg from '../../assets/Jonathanimg.JPG';
 import ashlynimg from '../../assets/Ashlyn.jpg'
 import tobiimg from '../../assets/tobi.jpg'
+import brielleimg from '../../assets/brielle.jpg'
+import ginaimg from '../../../assets/gina.jpg'
 // Styled Components
 const Container = styled.div`
   max-width: 1200px;
@@ -127,6 +129,11 @@ function LabMembers() {
       image: tobiimg,
     },
     {
+      name: 'Brielle Batres',
+      title: 'Research Assistant',
+      image: brielleimg,
+    },
+    {
       name: 'Joey Balducci',
       title: 'Research Assistant',
       image: joeyimg,
@@ -145,6 +152,11 @@ function LabMembers() {
       name: 'Mackenzie Lopez',
       title: 'Undergraduate Research Assistant',
       image: mackenzieimg,
+    },
+    {
+      name: 'Gina Makdesi',
+      title: 'Research Assistant',
+      image: ginaimg,
     },
     {
       name: 'Nicholas Novell',
