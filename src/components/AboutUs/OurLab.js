@@ -129,14 +129,14 @@ function LabMembers() {
       image: tobiimg,
     },
     {
-      name: 'Brielle Batres',
-      title: 'Research Assistant',
-      image: brielleimg,
-    },
-    {
       name: 'Joey Balducci',
       title: 'Research Assistant',
       image: joeyimg,
+    },
+    {
+      name: 'Brielle Batres',
+      title: 'Research Assistant',
+      image: brielleimg,
     },    
     {
       name: 'Ashlyn Germanos',
