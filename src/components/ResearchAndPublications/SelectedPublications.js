@@ -527,7 +527,7 @@ const publications = [
     journal: "Psychiatric Genetics. 2006 Dec;16(6):241-244",
     doi: "10.1097/01.ypg.0000233905.89696.88",
     pmid: "17106386",
-    link: "/assets/pdfs/PDF46.pdf",
+    link: "/assets/pdfs/PDFoligo.pdf",
   },
   {
     title:
@@ -537,7 +537,7 @@ const publications = [
     journal: "The Pharmacogenomics Journal. 2007;7(4):222-256",
     doi: "10.1038/sj.tpj.6500425",
     pmid: "16894361",
-    link: "/assets/pdfs/PDF47.pdf",
+    link: "/assets/pdfs/PDF46.pdf",
   },
   {
     title:
@@ -548,7 +548,7 @@ const publications = [
       "American Journal of Medical Genetics Part B: Neuropsychiatric Genetics. 2006 Sep 5;141B(6):653-662",
     doi: "10.1002/ajmg.b.30358",
     pmid: "16892403",
-    link: "/assets/pdfs/PDF48.pdf",
+    link: "/assets/pdfs/PDF47.pdf",
   },
   {
     title:
@@ -559,7 +559,7 @@ const publications = [
       "Journal of Affective Disorders. 2006 Apr;91(2-3):235-242",
     doi: "10.1016/j.jad.2006.01.012",
     pmid: "16504347",
-    link: "/assets/pdfs/PDF49.pdf",
+    link: "/assets/pdfs/PDF48.pdf",
   },
   {
     title:
@@ -569,7 +569,7 @@ const publications = [
     journal: "Methods. 2005 Nov;37(3):274-279",
     doi: "10.1016/j.ymeth.2005.07.004",
     pmid: "16288923",
-    link: "/assets/pdfs/PDF50.pdf",
+    link: "/assets/pdfs/PDF49.pdf",
   },
   {
     title:
@@ -578,7 +578,7 @@ const publications = [
     journal: "Genome Biology. 2005;6(4):215",
     doi: "10.1186/gb-2005-6-4-215",
     pmid: "15797511",
-    link: "/assets/pdfs/PDF51.pdf",
+    link: "/assets/pdfs/PDF50.pdf",
   },
   {
     title:
@@ -588,7 +588,7 @@ const publications = [
     journal: "Molecular Psychiatry. 2004 Nov;9(11):1007-1029",
     doi: "10.1038/sj.mp.4001546",
     pmid: "15263892",
-    link: "/assets/pdfs/PDF52.pdf",
+    link: "/assets/pdfs/PDF51.pdf",
   },
   {
     title:
@@ -597,7 +597,7 @@ const publications = [
     journal: "CNS Drugs. 2003;17(1):47-62",
     doi: "10.2165/00023210-200317010-00004",
     pmid: "12467491",
-    link: "/assets/pdfs/PDF53.pdf",
+    link: "/assets/pdfs/PDF52.pdf",
   },
   {
     title:
@@ -606,7 +606,7 @@ const publications = [
     journal: "CNS Spectrums. 2002 Mar;7(3):215-216, 223-226",
     doi: "10.1017/S1092852900027655",
     pmid: "15079142",
-    link: "/assets/pdfs/PDF54.pdf",
+    link: "/assets/pdfs/PDF53.pdf",
   },
   {
     title:
@@ -616,7 +616,7 @@ const publications = [
       "Archives of General Psychiatry. 2001 Nov;58(11):1083-1084; discussion 1085-6",
     doi: "10.1001/archpsyc.58.11.1083",
     pmid: "11695957",
-    link: "/assets/pdfs/PDF55.pdf",
+    link: "/assets/pdfs/PDF54.pdf",
   },
   {
     title:
@@ -625,7 +625,7 @@ const publications = [
     journal: "American Journal of Psychiatry. 2001 Oct;158(10):1587",
     doi: "10.1176/appi.ajp.158.10.1587",
     pmid: "11578991",
-    link: "/assets/pdfs/PDF56.pdf",
+    link: "/assets/pdfs/PDF55.pdf",
   },
   {
     title:
@@ -634,7 +634,7 @@ const publications = [
     journal: "Molecular Psychiatry. 2001 Jul;6(4):363-366",
     doi: "10.1038/sj.mp.4000885",
     pmid: "11443533",
-    link: "/assets/pdfs/PDF57.pdf",
+    link: "/assets/pdfs/PDF56.pdf",
   },
   {
     title:
@@ -643,7 +643,7 @@ const publications = [
     journal: "Annals of Medicine. 2001 May;33(4):263-271",
     doi: "10.3109/07853890109002092",
     pmid: "11444335",
-    link: "/assets/pdfs/PDF58.pdf",
+    link: "/assets/pdfs/PDF57.pdf",
   },
   {
     title:
@@ -653,7 +653,7 @@ const publications = [
     journal: "Physiological Genomics. 2000 Nov 9;4(1):83-91",
     doi: "10.1152/physiolgenomics.2000.4.1.83",
     pmid: "11074017",
-    link: "/assets/pdfs/PDF59.pdf",
+    link: "/assets/pdfs/PDF58.pdf",
   },
   {
     title: "The will to live, suicide, and euthanasia",
@@ -661,7 +661,7 @@ const publications = [
     journal: "Archives of Internal Medicine. 2000 Jun 12;160(11):1706",
     doi: "10.1001/archinte.160.11.1706",
     pmid: "10847267",
-    link: "/assets/pdfs/PDF60.pdf",
+    link: "/assets/pdfs/PDF59.pdf",
   },
   {
     title:
