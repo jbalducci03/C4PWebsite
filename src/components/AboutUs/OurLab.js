@@ -154,7 +154,7 @@ function LabMembers() {
       image: mackenzieimg,
     },
     {
-      name: 'Gina Makdesi',
+      name: 'Gina M.Makdesi',
       title: 'Research Assistant',
       image: ginaimg,
     },
