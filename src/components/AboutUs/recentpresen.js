@@ -76,11 +76,13 @@ const captions = [
 const pngIndices = [2, 11, 16, 17, 19];
 const keepOriginalSizeIndices = [4, 14];
 
+const BASE = process.env.PUBLIC_URL || '';
+
 function PhotoAlbum() {
   const images = [];
   for (let i = 1; i <= 21; i++) {
     const extension = pngIndices.includes(i) ? 'png' : 'jpg';
-    images.push({ src: `/assets/PA${i}.${extension}`, number: i });
+    images.push({ src: `${BASE}/assets/PA${i}.${extension}`, number: i });
   }
 
   return (
@@ -88,7 +90,7 @@ function PhotoAlbum() {
       <TopPhotoContainer>
         <TopPhotoCard>
           <img
-            src="/assets/topphoto.jpg"
+            src={`${BASE}/assets/topphoto.jpg`}
             alt="Top Photo"
             style={{ width: '400px', height: 'auto', display: 'block' }}
           />
@@ -96,7 +98,7 @@ function PhotoAlbum() {
         </TopPhotoCard>
         <TopPhotoCard>
           <img
-            src="/assets/PresidentialVisit.jpg"
+            src={`${BASE}/assets/PresidentialVisit.jpg`}
             alt="Presidential Visit"
             style={{ width: '400px', height: 'auto', display: 'block' }}
           />
@@ -124,7 +126,7 @@ function PhotoAlbum() {
       <BottomPhotoContainer>
         <PhotoCard>
           <img
-            src="/assets/Ping-Pong.jpg"
+            src={`${BASE}/assets/Ping-Pong.jpg`}
             alt="Ping Pong"
             style={{ width: '400px', height: 'auto', display: 'block' }}
           />
