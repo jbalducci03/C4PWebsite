@@ -46,6 +46,7 @@ const BottomPhotoContainer = styled.div`
   display: flex;
   justify-content: center;
   margin-top: 2rem;
+  padding-bottom: 2rem;
 `;
 
 const captions = [
@@ -86,11 +87,19 @@ function PhotoAlbum() {
     <>
       <TopPhotoContainer>
         <TopPhotoCard>
-          <StyledImage src="/assets/topphoto.jpg" alt="Top Photo" style={{ maxWidth: 'none' }} />
+          <img
+            src="/assets/topphoto.jpg"
+            alt="Top Photo"
+            style={{ width: '400px', height: 'auto', display: 'block' }}
+          />
           <Caption>C4P Summer 2025</Caption>
         </TopPhotoCard>
         <TopPhotoCard>
-          <StyledImage src="/assets/PresidentialVisit.jpg" alt="Presidential Visit" style={{ maxWidth: 'none' }} />
+          <img
+            src="/assets/PresidentialVisit.jpg"
+            alt="Presidential Visit"
+            style={{ width: '400px', height: 'auto', display: 'block' }}
+          />
           <Caption>UofA President Garimella Visits UA-COM Phoenix</Caption>
         </TopPhotoCard>
       </TopPhotoContainer>
@@ -114,7 +123,11 @@ function PhotoAlbum() {
 
       <BottomPhotoContainer>
         <PhotoCard>
-          <StyledImage src="/assets/Ping-Pong.jpg" alt="Ping Pong" />
+          <img
+            src="/assets/Ping-Pong.jpg"
+            alt="Ping Pong"
+            style={{ width: '400px', height: 'auto', display: 'block' }}
+          />
           <Caption>Taking a Break!</Caption>
         </PhotoCard>
       </BottomPhotoContainer>
