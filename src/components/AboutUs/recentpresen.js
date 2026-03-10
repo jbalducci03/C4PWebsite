@@ -1,12 +1,31 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
-const AlbumContainer = styled.div`
+const Page = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
+const TopSection = styled.div`
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+`;
+
+const AlbumGrid = styled.div`
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
-  padding: 1rem;
+  max-width: 1200px;
+`;
+
+const BottomSection = styled.div`
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 `;
 
 const PhotoCard = styled.div`
@@ -16,9 +35,8 @@ const PhotoCard = styled.div`
 `;
 
 const StyledImage = styled.img`
-  width: auto;
-  height: auto;
   max-width: 400px;
+  height: auto;
 `;
 
 const Caption = styled.p`
@@ -26,27 +44,6 @@ const Caption = styled.p`
   font-size: 0.9rem;
   text-align: center;
   max-width: 400px;
-`;
-
-const TopPhotoContainer = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
-  margin-bottom: 2rem;
-`;
-
-const TopPhotoCard = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-`;
-
-const BottomPhotoContainer = styled.div`
-  display: flex;
-  justify-content: center;
-  margin-top: 2rem;
-  padding-bottom: 2rem;
 `;
 
 const captions = [
@@ -61,79 +58,87 @@ const captions = [
   "VA Neurophenomics Team",
   "Bioinformatics Group: Building (CFG) Pyramids",
   "Bioinformatics team, Winter 2016",
-  "ABN with Nancy Andreasen, a terrific researcher and writer, sharing ideas on the neurobiology of schizophrenia",
-  "Spreading the gospel of Convergent Functional Genomics, PhenoChipping and 3D Mindscape",
+  "ABN with Nancy Andreasen, sharing ideas on schizophrenia",
+  "Spreading the gospel of Convergent Functional Genomics",
   "Biomarkers!",
-  "Park City 2020. Along with key players in the psychiatric genetics field.",
+  "Park City 2020",
   "Niculescu Lab",
   "Niculescu Lab",
-  "ABN with one of his mentors, Prof. Ming Tsuang.",
+  "ABN with Prof. Ming Tsuang",
   "Indiana Bob and the Pyramids of (CFG) Doom",
   "IUPUI Research Frontiers Trailblazer Award 2012",
   ""
 ];
 
 const pngIndices = [2, 11, 16, 17, 19];
-const keepOriginalSizeIndices = [4, 14];
 
-const BASE = process.env.PUBLIC_URL || '';
+const BASE = process.env.PUBLIC_URL || "";
 
 function PhotoAlbum() {
+
   const images = [];
+
   for (let i = 1; i <= 21; i++) {
-    const extension = pngIndices.includes(i) ? 'png' : 'jpg';
-    images.push({ src: `${BASE}/assets/PA${i}.${extension}`, number: i });
+    const extension = pngIndices.includes(i) ? "png" : "jpg";
+    images.push({
+      src: `${BASE}/assets/PA${i}.${extension}`,
+      caption: captions[i - 1],
+      id: i
+    });
   }
 
   return (
-    <>
-      <TopPhotoContainer>
-        <TopPhotoCard>
-          <img
+    <Page>
+
+      {/* TOP PHOTOS */}
+      <TopSection>
+
+        <PhotoCard>
+          <StyledImage
             src={`${BASE}/assets/topphoto.jpg`}
             alt="Top Photo"
-            style={{ width: '400px', height: 'auto', display: 'block' }}
           />
           <Caption>C4P Summer 2025</Caption>
-        </TopPhotoCard>
-        <TopPhotoCard>
-          <img
+        </PhotoCard>
+
+        <PhotoCard>
+          <StyledImage
             src={`${BASE}/assets/PresidentialVisit.jpg`}
             alt="Presidential Visit"
-            style={{ width: '400px', height: 'auto', display: 'block' }}
           />
-          <Caption>UofA President Garimella Visits UA-COM Phoenix</Caption>
-        </TopPhotoCard>
-      </TopPhotoContainer>
+          <Caption>
+            UofA President Garimella Visits UA-COM Phoenix
+          </Caption>
+        </PhotoCard>
 
-      <AlbumContainer>
-        {images.map((img, idx) => {
-          const { src, number } = img;
-          const captionText = captions[number - 1];
-          const customStyle = keepOriginalSizeIndices.includes(number)
-            ? { width: 'auto', height: 'auto', maxWidth: 'none' }
-            : {};
+      </TopSection>
 
-          return (
-            <PhotoCard key={idx}>
-              <StyledImage src={src} alt={`Photo ${number}`} style={customStyle} />
-              <Caption>{captionText}</Caption>
-            </PhotoCard>
-          );
-        })}
-      </AlbumContainer>
 
-      <BottomPhotoContainer>
+      {/* MAIN PHOTO ALBUM */}
+
+      <AlbumGrid>
+        {images.map((img) => (
+          <PhotoCard key={img.id}>
+            <StyledImage src={img.src} alt={`Photo ${img.id}`} />
+            <Caption>{img.caption}</Caption>
+          </PhotoCard>
+        ))}
+      </AlbumGrid>
+
+
+      {/* BOTTOM PHOTO */}
+
+      <BottomSection>
         <PhotoCard>
-          <img
+          <StyledImage
             src={`${BASE}/assets/Ping-Pong.jpg`}
             alt="Ping Pong"
-            style={{ width: '400px', height: 'auto', display: 'block' }}
           />
           <Caption>Taking a Break!</Caption>
         </PhotoCard>
-      </BottomPhotoContainer>
-    </>
+      </BottomSection>
+
+    </Page>
   );
 }
 
