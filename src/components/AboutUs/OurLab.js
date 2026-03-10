@@ -190,7 +190,7 @@ function LabMembers() {
     { name: "Griffin Fitzgerald", title: "Principal Scientist, Imaging and Pharmacology, Eli Lilly" },
     { name: "Miranda Gavrin", title: "Software Engineer, Aurora, Pittsburgh, PA" },
     { name: "Sunita George, Psy.D.", title: "Psychologist, Modern Therapy, Houston, TX" },
-    { name: "Ashlyn Germanos", title: "Medical Student, John Shufeldt School of Medicine and Medical Engineering"},
+    { name: "Ashlyn Germanos", title: "Medical Student"},
     { name: "Sumanpreet Singh Gill, M.D.", title: "Family Medicine Resident" },
     { name: "Emily Gilmore, Psy.D.", title: "Clinical Psychologist, Bethel Olentangy, Columbus, OH" },
     { name: "Katie Harlow, M.D.", title: "Pediatric Gastroenterology, Riley Children's Health, IN" },
