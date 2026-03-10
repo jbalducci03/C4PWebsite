@@ -139,11 +139,6 @@ function LabMembers() {
       image: brielleimg,
     },    
     {
-      name: 'Ashlyn Germanos',
-      title: 'Research Assistant',
-      image: ashlynimg,
-    },
-    {
       name: 'Edie Gobel',
       title: 'Undergraduate Research Assistant',
       image: edieimg,
@@ -179,7 +174,7 @@ function LabMembers() {
     { name: "Elizabeth Belanger, Psy.D.", title: "Clinical Psychologist, Hinesville VA Clinic, GA" },
     { name: "David M. Bertram, Psy.D.", title: "Clinical Psychologist, Grand Rapids, MI" },
     { name: "Brion Bertsh, M.D.", title: "Neurologist, Fairmount, IN" },
-    { name: 'Rowan Bhagar', title: "Clinical Technician, Saint Luis, MO"},
+    { name: 'Rowan Bhagar', title: "Clinical Technician, Saint Louis, MO"},
     { name: "Meghana Bhat, M.D.", title: "Adult Psychiatry, Meridian Health Services, IN" },
     { name: "Sugandha Bhosrekar, M.D.", title: "Psychiatrist, Minneapolis, MN" },
     { name: "Dean Bowker, M.D.", title: "Anesthesiology, California Pacific Medical Center, CA" },
@@ -195,6 +190,7 @@ function LabMembers() {
     { name: "Griffin Fitzgerald", title: "Principal Scientist, Imaging and Pharmacology, Eli Lilly" },
     { name: "Miranda Gavrin", title: "Software Engineer, Aurora, Pittsburgh, PA" },
     { name: "Sunita George, Psy.D.", title: "Psychologist, Modern Therapy, Houston, TX" },
+    { name: "Ashlyn Germanos", title: "Medical Student, John Shufeldt School of Medicine and Medical Engineering"},
     { name: "Sumanpreet Singh Gill, M.D.", title: "Family Medicine Resident" },
     { name: "Emily Gilmore, Psy.D.", title: "Clinical Psychologist, Bethel Olentangy, Columbus, OH" },
     { name: "Katie Harlow, M.D.", title: "Pediatric Gastroenterology, Riley Children's Health, IN" },
@@ -263,7 +259,7 @@ function LabMembers() {
         <Title>Alumni</Title>
         <AlumniList>
           {alumni.map((alum, index) => (
-            <AlumniItem key={index}>{alum.name},{alum.title}</AlumniItem>
+            <AlumniItem key={index}>{alum.name}, {alum.title}</AlumniItem>
           ))}
         </AlumniList>
       </Section>
