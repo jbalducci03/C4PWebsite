@@ -87,7 +87,7 @@ function PhotoAlbum() {
       <Row>
         <PhotoCard>
           <Img src="/assets/topphoto.jpg" alt="Top Photo" />
-          <Caption>C4P Summer 2025</Caption>
+          <Caption>C4P Summer 2026</Caption>
         </PhotoCard>
 
         <PhotoCard>
