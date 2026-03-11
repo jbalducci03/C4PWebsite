@@ -83,16 +83,15 @@ function PhotoAlbum() {
   return (
     <Page>
 
+      <PhotoCard>
+        <Img src="/assets/PresidentialVisit.jpg" alt="Presidential Visit" />
+        <Caption>UofA President Garimella Visits UA-COM Phoenix</Caption>
+      </PhotoCard>
       {/* TOP ROW */}
       <Row>
         <PhotoCard>
           <Img src="/assets/topphoto.jpg" alt="Top Photo" />
           <Caption>C4P Summer 2025</Caption>
-        </PhotoCard>
-
-        <PhotoCard>
-          <Img src="/assets/PresidentialVisit.jpg" alt="Presidential Visit" />
-          <Caption>UofA President Garimella Visits UA-COM Phoenix</Caption>
         </PhotoCard>
       </Row>
 
