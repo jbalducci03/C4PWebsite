@@ -157,11 +157,6 @@ function LabMembers() {
       name: 'Nicholas Novell',
       title: 'Undergraduate Research Assistant',
       image: nicholasimg,
-    },
-    {
-      name: 'Aayush Rastogi',
-      title: 'Undergraduate Research Assistant',
-      image: aayushimg,
     }
   ];
 
@@ -219,6 +214,7 @@ function LabMembers() {
     { name: "Peter Phalen, Psy.D.", title: "University of Maryland" },
     { name: "Swapna Raavi, M.D.", title: "Internal Medicine, St. Luke's, Duluth & Hermantown, MN" },
     { name: "Mark Radel, Psy.D.", title: "Psychologist, LifeSpan Counseling & Psychological Services, Oak Park, IL" },
+    { name: 'Aayush Rastogi', title: 'Undergraduate Student, Arizona State University, Tempe, AZ'},
     { name: "Michael Rich, M.D.", title: "Cardiology, Boise, ID" },
     { name: "Hayley Robertson, Pharm.D.", title: "Pharmacist, Indianapolis, IN" },
     { name: "Kyle Roseberry, MD.", title: "Psychiatrist, VA" },
