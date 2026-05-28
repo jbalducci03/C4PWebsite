@@ -17,8 +17,9 @@ import joeyimg from '../../assets/joey.png';
 import Jonathanimg from '../../assets/Jonathanimg.JPG';
 import ashlynimg from '../../assets/Ashlyn.jpg';
 import tobiimg from '../../assets/tobi.jpg';
-import brielleimg from '../../assets/Brielle.png';
+import brielleimg from '../../assets/briellejpg.jpeg';
 import ginaimg from '../../assets/Gina.png';
+import brittanyimg from '../../assets/Brittany.jpg';
 // Styled Components
 const Container = styled.div`
   max-width: 1200px;
@@ -150,14 +151,20 @@ function LabMembers() {
     },
     {
       name: 'Gina M.Makdesi',
-      title: 'UndergraduateResearch Assistant',
+      title: 'Undergraduate Research Assistant',
       image: ginaimg,
     },
     {
       name: 'Nicholas Novell',
       title: 'Undergraduate Research Assistant',
       image: nicholasimg,
-    }
+    },    
+    {
+      name: 'Brittany Phelps, MSc',
+      title: 'Graduate Research Assistant',
+      image: brittanyimg,
+    },
+
   ];
 
   const alumni = [

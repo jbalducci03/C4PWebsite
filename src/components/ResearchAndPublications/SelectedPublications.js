@@ -108,6 +108,7 @@ const publications = [
       "R. Bhagar, H. Le-Niculescu, K. Roseberry, K. Kosary, C. Daly, A. Ballew, M. Yard, G. E. Sandusky, A. B. Niculescu",
     journal: "Discover Mental Health. 2023 April 3(10)",
     doi: "10.1007/s44192-023-00035-4",
+    pmid: "37861857",
     link: "/assets/pdfs/PDF3.pdf",
   },
   {
@@ -127,6 +128,7 @@ const publications = [
       "M. Cheng, K. Roseberry, Y. Choi, L. Quast, M. Gaines, G. Sandusky, J. A. Kline, P. Bogdan, A. B. Niculescu",
     journal: "Discover Mental Health. 2022 June 13(2)",
     doi: "10.1007/s44192-022-00016-z",
+    pmid: "35722470",
     link: "/assets/pdfs/PDF5.pdf",
   },
   {
@@ -338,7 +340,7 @@ const publications = [
     journal:
       "American Journal of Medical Genetics Part B: Neuropsychiatric Genetics. 2013 Oct;162B(7):587-594",
     doi: "10.1002/ajmg.b.32163",
-    pmid: "23740684",
+    pmid: "23728881",
     link: "/assets/pdfs/PDF27.pdf",
   },
   {
@@ -348,7 +350,7 @@ const publications = [
       "Ayalew M, Le-Niculescu H, Levey D, Jain N, Changala B, Patel SD, Winiger E, Breier A, Shekhar A, Amdur R, Koller D, Nurnberger JI, Corvin A, Geyer M, Tsuang MT, Salomon DR, Schork NJ, Fanous A, O’Donovan M, Niculescu AB",
     journal: "Molecular Psychiatry. 2012 Sep;17(9):887-905",
     doi: "10.1038/mp.2012.37",
-    pmid: "22827893",
+    pmid: "22584867",
     link: "/assets/pdfs/PDF28.pdf",
   },
   {
@@ -358,7 +360,7 @@ const publications = [
       "Le-Niculescu H, Balaraman Y, Patel SD, Ayalew M, Gupta J, Kuczenski R, Shekhar A, Schork N, Geyer MA, Niculescu AB",
     journal: "Translational Psychiatry. 2011 May 24;1:e9",
     doi: "10.1038/tp.2011.6",
-    pmid: "22832350",
+    pmid: "22832404",
     link: "/assets/pdfs/PDF29.pdf",
   },
   {
@@ -368,7 +370,7 @@ const publications = [
       "Le-Niculescu H, Case NJ, Hulvershorn L, Patel SD, Bowker D, Gupta J, Bell R, Edenberg HJ, Tsuang MT, Kuczenski R, Geyer MA, Rodd Z, Niculescu AB",
     journal: "Translational Psychiatry. 2011 Apr 26;1:e4",
     doi: "10.1038/tp.2011.3",
-    pmid: "22832347",
+    pmid: "22832392",
     link: "/assets/pdfs/PDF30.pdf",
   },
   {
@@ -387,7 +389,7 @@ const publications = [
     authors: "Le-Niculescu H, Patel SD, Niculescu AB",
     journal: "Current Opinion in Pharmacology. 2010 Dec;10(5):594-600",
     doi: "10.1016/j.coph.2010.06.011",
-    pmid: "20637553",
+    pmid: "20817606",
     link: "/assets/pdfs/PDF32.pdf",
   },
   {
@@ -398,7 +400,7 @@ const publications = [
     journal:
       "American Journal of Medical Genetics Part B: Neuropsychiatric Genetics. 2010 Jun 5;153B(4):850-877",
     doi: "10.1002/ajmg.b.31052",
-    pmid: "20503442",
+    pmid: "20468069",
     link: "/assets/pdfs/PDF33.pdf",
   },
   {
@@ -408,7 +410,7 @@ const publications = [
     journal:
       "American Journal of Medical Genetics Part B: Neuropsychiatric Genetics. 2010 Jun 5;153B(4):847-849",
     doi: "10.1002/ajmg.b.31053",
-    pmid: "20503441",
+    pmid: "20301110",
     link: "/assets/pdfs/PDF34.pdf",
   },
   {
@@ -424,7 +426,7 @@ const publications = [
     authors: "Niculescu AB, Le-Niculescu H",
     journal: "Neuropsychopharmacology. 2010 Jan;35(1):355-356",
     doi: "10.1038/npp.2009.128",
-    pmid: "19794405",
+    pmid: "20010721",
     link: "/assets/pdfs/PDF36.pdf",
   },
   {
@@ -434,7 +436,7 @@ const publications = [
       "Caligiuri MP, Teulings HL, Dean CE, Niculescu AB, Lohr JB",
     journal: "Psychiatry Research. 2010 May 15;177(1-2):77-83",
     doi: "10.1016/j.psychres.2009.02.001",
-    pmid: "20303447",
+    pmid: "20381875",
     link: "/assets/pdfs/PDF37.pdf",
   },
   {
@@ -444,7 +446,7 @@ const publications = [
       "McGrath CL, Glatt SJ, Sklar P, Le-Niculescu H, Kuczenski R, Doyle AE, Biederman J, Mick E, Faraone SV, Niculescu AB, Tsuang MT",
     journal: "BMC Psychiatry. 2009 Nov 12;9:70",
     doi: "10.1186/1471-244X-9-70",
-    pmid: "19903344",
+    pmid: "19909500",
     link: "/assets/pdfs/PDF38.pdf",
   },
   {
@@ -454,7 +456,7 @@ const publications = [
       "Caligiuri MP, Teulings HL, Dean CE, Niculescu AB, Lohr J",
     journal: "Human Movement Science. 2009 Oct;28(5):633-642",
     doi: "10.1016/j.humov.2009.08.001",
-    pmid: "19720499",
+    pmid: "19692133",
     link: "/assets/pdfs/PDF39.pdf",
   },
   {
@@ -463,7 +465,7 @@ const publications = [
     authors: "Niculescu AB, Schork NJ, Salomon DR",
     journal: "Journal of Affective Disorders. 2010 Jun;123(1-3):1-8",
     doi: "10.1016/j.jad.2009.10.008",
-    pmid: "19923043",
+    pmid: "19595463",
     link: "/assets/pdfs/PDF40.pdf",
   },
   {
@@ -474,7 +476,7 @@ const publications = [
     journal:
       "American Journal of Medical Genetics Part B: Neuropsychiatric Genetics. 2009 Mar 5;150B(2):155-181",
     doi: "10.1002/ajmg.b.30887",
-    pmid: "18618561",
+    pmid: "19025758",
     link: "/assets/pdfs/PDF41.pdf",
   },
   {
@@ -484,7 +486,7 @@ const publications = [
       "Liu L, Foroud R, Xuei X, Berrettini W, Byerley W, Coryell W, El-Mallakh R, Gershon E, Kelsoe J, Lawson W, MacKinnon D, McInnis M, McMahon F, Murphy D, Rice J, Scheftner W, Niculescu AB, Meyer ET, Edenberg HJ, Nurnberger JI Jr",
     journal: "Psychiatric Genetics. 2008 Dec;18(6):267-274",
     doi: "10.1097/YPG.0b013e328306a465",
-    pmid: "19018236",
+    pmid: "19018231",
     link: "/assets/pdfs/PDF42.pdf",
   },
   {
@@ -495,7 +497,7 @@ const publications = [
     journal:
       "American Journal of Medical Genetics Part B: Neuropsychiatric Genetics. 2008 Mar 5;147B(2):134-166",
     doi: "10.1002/ajmg.b.30613",
-    pmid: "18247385",
+    pmid: "18247375",
     link: "/assets/pdfs/PDF43.pdf",
   },
   {
@@ -506,7 +508,7 @@ const publications = [
     journal:
       "Neuroscience & Biobehavioral Reviews. 2007;31(6):897-903",
     doi: "10.1016/j.neubiorev.2007.04.009",
-    pmid: "17555801",
+    pmid: "17614132",
     link: "/assets/pdfs/PDF44.pdf",
   },
   {
@@ -517,7 +519,7 @@ const publications = [
     journal:
       "American Journal of Medical Genetics Part B: Neuropsychiatric Genetics. 2007 Mar 5;144B(2):129-158",
     doi: "10.1002/ajmg.b.30415",
-    pmid: "17318852",
+    pmid: "17266109",
     link: "/assets/pdfs/PDF45.pdf",
   },
   {
@@ -526,7 +528,7 @@ const publications = [
     authors: "Niculescu AB",
     journal: "Psychiatric Genetics. 2006 Dec;16(6):241-244",
     doi: "10.1097/01.ypg.0000233905.89696.88",
-    pmid: "17106386",
+    pmid: "17106426",
     link: "/assets/pdfs/PDFoligo.pdf",
   },
   {
@@ -536,7 +538,7 @@ const publications = [
       "Rodd ZA, Bertsch BA, Strother WN, Le-Niculescu H, Balaraman Y, Hayden E, Jerome RE, Lumeng L, Nurnberger JI Jr, Edenberg HJ, McBride WJ, Niculescu AB",
     journal: "The Pharmacogenomics Journal. 2007;7(4):222-256",
     doi: "10.1038/sj.tpj.6500425",
-    pmid: "16894361",
+    pmid: "17033615",
     link: "/assets/pdfs/PDF46.pdf",
   },
   {
@@ -547,7 +549,7 @@ const publications = [
     journal:
       "American Journal of Medical Genetics Part B: Neuropsychiatric Genetics. 2006 Sep 5;141B(6):653-662",
     doi: "10.1002/ajmg.b.30358",
-    pmid: "16892403",
+    pmid: "16838358",
     link: "/assets/pdfs/PDF47.pdf",
   },
   {
@@ -558,7 +560,7 @@ const publications = [
     journal:
       "Journal of Affective Disorders. 2006 Apr;91(2-3):235-242",
     doi: "10.1016/j.jad.2006.01.012",
-    pmid: "16504347",
+    pmid: "16503055",
     link: "/assets/pdfs/PDF48.pdf",
   },
   {
@@ -568,7 +570,7 @@ const publications = [
       "Bertsch B, Ogden CA, Sidhu K, Le-Niculescu H, Kuczenski R, Niculescu AB",
     journal: "Methods. 2005 Nov;37(3):274-279",
     doi: "10.1016/j.ymeth.2005.07.004",
-    pmid: "16288923",
+    pmid: "16308156",
     link: "/assets/pdfs/PDF49.pdf",
   },
   {
@@ -577,7 +579,7 @@ const publications = [
     authors: "Niculescu AB",
     journal: "Genome Biology. 2005;6(4):215",
     doi: "10.1186/gb-2005-6-4-215",
-    pmid: "15797511",
+    pmid: "15833130",
     link: "/assets/pdfs/PDF50.pdf",
   },
   {
@@ -587,7 +589,7 @@ const publications = [
       "Ogden CA, Rich ME, Schork NJ, Paulus MP, Geyer MA, Lohr JB, Kuczenski R, Niculescu AB",
     journal: "Molecular Psychiatry. 2004 Nov;9(11):1007-1029",
     doi: "10.1038/sj.mp.4001546",
-    pmid: "15263892",
+    pmid: "15314610",
     link: "/assets/pdfs/PDF51.pdf",
   },
   {
@@ -596,7 +598,7 @@ const publications = [
     authors: "Lohr JB, Kuczenski R, Niculescu AB",
     journal: "CNS Drugs. 2003;17(1):47-62",
     doi: "10.2165/00023210-200317010-00004",
-    pmid: "12467491",
+    pmid: "12467492",
     link: "/assets/pdfs/PDF52.pdf",
   },
   {
@@ -605,7 +607,7 @@ const publications = [
     authors: "Niculescu AB, Kelsoe JR",
     journal: "CNS Spectrums. 2002 Mar;7(3):215-216, 223-226",
     doi: "10.1017/S1092852900027655",
-    pmid: "15079142",
+    pmid: "15211285",
     link: "/assets/pdfs/PDF53.pdf",
   },
   {
@@ -624,7 +626,7 @@ const publications = [
     authors: "Niculescu AB, Kelsoe JR",
     journal: "American Journal of Psychiatry. 2001 Oct;158(10):1587",
     doi: "10.1176/appi.ajp.158.10.1587",
-    pmid: "11578991",
+    pmid: "11578984",
     link: "/assets/pdfs/PDF55.pdf",
   },
   {
@@ -633,7 +635,7 @@ const publications = [
     authors: "Niculescu AB, Akiskal HS",
     journal: "Molecular Psychiatry. 2001 Jul;6(4):363-366",
     doi: "10.1038/sj.mp.4000885",
-    pmid: "11443533",
+    pmid: "11443518",
     link: "/assets/pdfs/PDF56.pdf",
   },
   {
@@ -642,7 +644,7 @@ const publications = [
     authors: "Niculescu AB, Kelsoe JR",
     journal: "Annals of Medicine. 2001 May;33(4):263-271",
     doi: "10.3109/07853890109002092",
-    pmid: "11444335",
+    pmid: "11405548",
     link: "/assets/pdfs/PDF57.pdf",
   },
   {
@@ -660,7 +662,7 @@ const publications = [
     authors: "Niculescu AB",
     journal: "Archives of Internal Medicine. 2000 Jun 12;160(11):1706",
     doi: "10.1001/archinte.160.11.1706",
-    pmid: "10847267",
+    pmid: "10847275",
     link: "/assets/pdfs/PDF59.pdf",
   },
   {
@@ -669,7 +671,7 @@ const publications = [
     authors: "Niculescu AB",
     journal: "The Lancet. 2000 Jan 29;355(9201):406-407",
     doi: "10.1016/S0140-6736(05)72040-0",
-    pmid: "10665562",
+    pmid: "10665577",
     link: "/assets/pdfs/PDF60.pdf",
   },
   {
@@ -679,7 +681,7 @@ const publications = [
       "Niculescu AB, Chen X, Smeets M, Hengst L, Prives C, Reed SI",
     journal: "Molecular and Cellular Biology. 1998 Jan;18(1):629-643",
     doi: "10.1128/MCB.18.1.629",
-    pmid: "9418905",
+    pmid: "9418909",
     link: "/assets/pdfs/PDF61.pdf",
   },
 ];
