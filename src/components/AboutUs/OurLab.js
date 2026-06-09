@@ -20,6 +20,8 @@ import tobiimg from '../../assets/tobi.jpg';
 import brielleimg from '../../assets/briellejpg.jpeg';
 import ginaimg from '../../assets/Gina.png';
 import brittanyimg from '../../assets/Brittany.jpg';
+import brendanimg from '../../assets/brendan.jpg';
+import caitlinimg from '../../assets/caitlin.jpg';
 // Styled Components
 const Container = styled.div`
   max-width: 1200px;
@@ -145,11 +147,6 @@ function LabMembers() {
       image: edieimg,
     },
     {
-      name: 'Mackenzie Lopez',
-      title: 'Undergraduate Research Assistant',
-      image: mackenzieimg,
-    },
-    {
       name: 'Gina M.Makdesi',
       title: 'Undergraduate Research Assistant',
       image: ginaimg,
@@ -163,6 +160,16 @@ function LabMembers() {
       name: 'Brittany Phelps, MSc',
       title: 'Graduate Research Assistant',
       image: brittanyimg,
+    },
+    {
+      name: 'Brendan Salisbury',
+      title: 'Undergraduate Research Assistant',
+      image: brendanimg,
+    },
+    {
+      name: 'Caitlin Ulreich-Power',
+      title: 'Undergraduate Research Assistant',
+      image: caitlinimg,
     },
 
   ];
