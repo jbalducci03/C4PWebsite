@@ -157,11 +157,6 @@ function LabMembers() {
       image: nicholasimg,
     },    
     {
-      name: 'Brittany Phelps, MSc',
-      title: 'Graduate Research Assistant',
-      image: brittanyimg,
-    },
-    {
       name: 'Brendan Salisbury',
       title: 'Undergraduate Research Assistant',
       image: brendanimg,
