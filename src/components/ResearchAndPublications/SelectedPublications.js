@@ -74,6 +74,15 @@ const DownloadLink = styled.a`
 
 const publications = [
   {
+    title: "Next-generation precision medicine for mood disorders: reproducible blood biomarkers enable objective diagnostics, subtyping, and targeted therapeutics",
+    authors:
+      "J. Balducci, E. Gobel, M. Schmitz, J French, A. Germanos, SC Corey, R. Bhagar, SM Kurian, A. Shekhar,H. Le-Niculescu, and  AB Niculescu ",
+    journal: "Molecular Psychiatry. 2026 Aug 04 ;30(1):186",
+    doi: "10.1038/s41380-026-03736-8",
+    pmid: "42547801",
+    link: "/assets/pdfs/Balducci.pdf",
+  },
+  {
     title: "Next-generation precision medicine for pain",
     authors:
       "R. Bhagar, H. Le-Niculescu, S. C. Corey, A. S. Gettelfinger, M. Schmitz, A. Ebushi, E. Matei, C. Woods, J. Mullen, S. M. Kurian, A. Shekhar, F. A. White & AB Niculescu ",
